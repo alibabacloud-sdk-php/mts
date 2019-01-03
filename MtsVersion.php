@@ -9,9 +9,9 @@ use AlibabaCloud\VersionResolverTrait;
  *
  * @package   AlibabaCloud\Mts
  *
- * @method V20140618\MtsApiResolver v20140618()
+ * @method static V20140618\MtsApiResolver v20140618()
  */
-class Mts
+class MtsVersion
 {
     use VersionResolverTrait;
 }

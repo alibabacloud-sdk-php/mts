@@ -5,8 +5,8 @@ namespace AlibabaCloud\Mts;
 use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * @deprecated
+ * @method static V20140618\MtsApiResolver v20140618()
  */
-class MtsVersion extends VersionResolver
+class Mts extends VersionResolver
 {
 }
